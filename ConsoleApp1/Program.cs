@@ -6,7 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("\nWhat is your name, friend? ");
+            Console.WriteLine("\nWhat is your name, my friend? ");
             var name = Console.ReadLine();
             var date = DateTime.Now;
             Console.WriteLine($"\nHello, {name}, on {date:d} at {date:t}!");
